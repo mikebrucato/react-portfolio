@@ -3,3 +3,23 @@ body {
   box-sizing: border-box;
 }
 
+.about {
+  text-align: center;
+}
+
+.aboutText {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.thumbnails {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+

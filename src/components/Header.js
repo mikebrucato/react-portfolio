@@ -7,7 +7,8 @@ import { Container } from "@material-ui/core"
 const useStyles = makeStyles({
     navDisplayFlex: {
         display: `flex`,
-        justifyContent: `space-between`
+        justifyContent: `space-between`,
+        
     },
     linkText: {
         textDecoration: `none`,
@@ -32,7 +33,7 @@ const Header = () => {
                     <List
                         component="nav"
                         aria-labelledby="main navigation"
-                        className={classes.navDisplayFlex} // this
+                        className={classes.navDisplayFlex}
                     >
                         {navLinks.map(({ title, path }) => (
                             <a href={path} key={title} className={classes.linkText} >
