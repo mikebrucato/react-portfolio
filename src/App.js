@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route, } from 'react-router-dom';
 import Projects from './components/Projects';  
 import About from './components/About'; 
 import Resume from './components/Resume'
+import CovidApp from "./components/CovidApp"
+import PartyHub from "./components/PartyHub"
 import './App.css';
  
 export default function App() {
@@ -20,6 +22,8 @@ export default function App() {
             <Resume />
           </Route>
         </Switch>
+        <Route path="/CovidApp" component={CovidApp} />
+        <Route path="/PartyHub" component={PartyHub} />
       </div>
     </Router>
   );
