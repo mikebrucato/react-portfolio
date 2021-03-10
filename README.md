@@ -1,3 +1,10 @@
+# React Portfolio
+
+This is just a simple portfolio site built with React to showcase some of my work at the Northwestern University Coding Bootcamp.
+
+Link: https://mikebrucato.github.io/react-portfolio/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
