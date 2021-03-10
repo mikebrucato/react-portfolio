@@ -21,7 +21,6 @@ const useStyles = makeStyles({
 const navLinks = [
     { title: `about`, path: `/about` },
     { title: `projects`, path: `/projects` },
-    { title: `resume`, path: `/resume` },
 ]
 
 const Header = () => {
