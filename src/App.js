@@ -12,7 +12,7 @@ export default function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/about">
+          <Route exact path="/">
             <About />
           </Route>
           <Route path="/projects">
