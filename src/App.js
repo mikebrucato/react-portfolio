@@ -9,7 +9,7 @@ import './App.css';
  
 export default function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <div>
         <Route path="/" component={About} />
         <Route path="/Projects" component={Projects} />
@@ -17,6 +17,6 @@ export default function App() {
         <Route path="/PartyHub" component={PartyHub} />
         <Route path="/DayPlanner" component={DayPlanner} />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
