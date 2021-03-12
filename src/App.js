@@ -9,14 +9,14 @@ import './App.css';
  
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <div>
-        <Route path="/About" component={About} />
+        <Route path="/" component={About} />
         <Route path="/Projects" component={Projects} />
         <Route path="/CovidApp" component={CovidApp} />
         <Route path="/PartyHub" component={PartyHub} />
         <Route path="/DayPlanner" component={DayPlanner} />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
