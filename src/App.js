@@ -12,10 +12,10 @@ export default function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/gh-pages-url/about">
             <About />
           </Route>
-          <Route path="/projects">
+          <Route path="/gh-pages-url/projects">
             <Projects />
           </Route>
         </Switch>
