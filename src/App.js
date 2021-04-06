@@ -1,9 +1,7 @@
 import React from 'react';
 import { HashRouter as Router } from 'react-router-dom'; 
-
-import Projects from './components/Projects';  
-import About from './components/About'; 
-import Resume from './Resume'
+import Header from './components/Header'
+import Footer from './components/Footer'
 import './App.css';
  
 export default function App() {
@@ -12,13 +10,10 @@ export default function App() {
     
      
           <Router>
-            <div class="App">
-          <About />
-          <Projects />
-          </div>
+            <div className="app">
+              <Header />
+              <Footer />
+            </div>
           </Router>
-
-     
-  
   );
 }
