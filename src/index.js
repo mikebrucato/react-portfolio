@@ -11,6 +11,7 @@ ReactDOM.render(
     <Header />
     <App />
     <Footer />
+  
   </React.StrictMode>,
   document.getElementById('root')
 );

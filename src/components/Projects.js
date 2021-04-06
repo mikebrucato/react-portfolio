@@ -7,7 +7,7 @@ import '../App.css';
 function Projects(props) {
   return (
     // Render a Thumbnail component
-    <div class="thumbnails">
+    <div className="thumbnails">
       <h1>Projects</h1>
       <Thumbnail
         link="/CovidApp"
