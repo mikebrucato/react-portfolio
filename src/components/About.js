@@ -2,15 +2,11 @@ import '../App.css'
 import React from 'react';
 
 
-function About(props) {
+function About() {
   return (
     <div className="about">
-      <>
-      <h1> Michael Brucato</h1>
-      <p>I'm a student developer about to graduate from Northwestern University's coding bootcamp.</p>
-      <p>With a passion for learning and new technologies I like focusing on minimalist design</p>
-      <p>and looking for new ways to find new solutions</p>
-      </>
+      <h1 className="name">Michael Brucato</h1>
+      <p className="aboutText">My name is Michael Brucato and I am a graduate of the Northwestern University's Full-Stack Web Developement Bootcamp. I am a life long Chicagoan with a passion for technology and learning.  I came from the pre-employment industry as a criminal records analyst and am breaking into to the world of web developement.  Outside of work I enjoy playing music and photography.  Take a look at some projects i've worked on!</p>
     </div>
 
   )
